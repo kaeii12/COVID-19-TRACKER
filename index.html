@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" ></script>
+  
+<title>
+    COVID 19 TRACKER
+    
+</title>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+</head>
+<body bgcolor="#fafafa">
+    <br>
+    <header><center><img src="ornek.jpg"></center></header>
+    <div class="container">
+        <div class="card">
+            <div class="card header one" id="hdr">Hasta Olanlar </div>
+            <div class="card body one" id="hdrBody1">0</div>
+            <div class="card footer one">  </div><br>
+            
+          </div>
+
+          
+          <div class="card">
+            <div class="card header sec">Kurtulanlar </div>
+            <div class="card body sec" id="hdrBody2">0</div>
+            <div class="card footer sec ">  </div><br>
+            
+          </div>
+          <div class="card">
+            <div class="card header tr">Yeni Ölüm </div>
+            <div class="card body tr" id="hdrBody3">0</div>
+            <div class="card footer tr">  </div><br>
+            
+          </div>
+          <div class="card">
+            <div class="card header fr">Aktif Vaka</div>
+            <div class="card body fr" id="hdrBody4">0</div>
+            <div class="card footer fr">  </div><br>
+            
+          </div>
+
+
+    </div><br>
+    <div><center>
+        <select class="custom-select" id="country" aria-label="Default select example" style="width:400px;">
+          <option selected>Seçiniz</option>
+
+        </select>
+    </center>
+</div>
+   
+
+<hr size="3" color="#b0d7fe">
+
+<canvas id="ilk" width="600" height="400"></canvas>
+<script src="corona.js"></script>
+</body>
+
+</html>

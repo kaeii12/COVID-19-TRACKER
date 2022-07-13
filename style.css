@@ -1,0 +1,113 @@
+body{
+   background-color:#f5e1ca;
+}
+.select-selected {
+    background-color: DodgerBlue;
+  }
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     justify-content: space-between;
+     margin-top: 15px;
+}
+
+
+
+
+
+.card{
+    font-size: 19px;
+    font-variant: normal;
+    font-weight: bold;
+    font-family: verdana;
+width: 16rem;
+height: 13rem;
+border-radius: 8%;
+border-color: aquamarine;
+border:0px solid black;
+}
+.card.header{
+    border:0px;
+    background-color:#b0d7fe;
+   max-height: 1.5rem;
+  font-size: 12px;
+  font-weight: bold;
+    color: black;
+}
+.card.footer{
+ 
+    max-height: 1.2rem;
+    background-color: pink;
+
+}
+.card.header one{
+    background-color: #b0d7fe;
+}
+.card.footer.one{
+
+    background-color: blue;
+
+}
+.card.body.one{
+
+    
+    background-color: #b0d7fe;
+
+}
+
+
+
+
+.card.header.sec{
+    background-color: #ddf6e2;
+}
+.card.footer.sec{
+
+    background-color: #7efb83;
+
+}
+.card.body.sec{
+
+    
+    background-color: #ddf6e2;
+
+}
+
+
+
+.card.header.tr{
+    background-color: #f4d7d7;
+}
+.card.footer.tr{
+
+    background-color: rgba(250,112,119,255);
+
+}
+.card.body.tr{
+
+    
+    background-color: #f4d7d7;
+
+}
+
+.card.header.fr{
+    background-color: #f5e1ca;
+}
+.card.footer.fr{
+
+    background-color: #f3e678;
+
+}
+.card.body.fr{
+
+    
+    background-color: #f5e1ca;
+
+}
+
+
+
+
